@@ -1,0 +1,23 @@
+---
+title: "Creation_of_Customer_Health_KPIs"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Creation_of_Customer_Health_KPIs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(custhealth)
+```
+
+```{r}
+summary(read.csv(app_sys("extdata/Data_Dump_Customer_Metrics.csv")))
+```

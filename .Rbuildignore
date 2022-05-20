@@ -1,0 +1,17 @@
+^custhealth\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^docs
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^app.R
+^checks$
+^Dockerfile
+^.dockerignore
+^deploy.R
+^prod_app.R
+^.Renviron
+^rsconnect$
+^.github
+^LICENSE\.md$

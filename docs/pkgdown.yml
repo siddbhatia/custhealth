@@ -1,0 +1,7 @@
+pandoc: 2.17.1.1
+pkgdown: 1.6.1
+pkgdown_sha: ~
+articles:
+  Creation_of_Customer_Health_KPIs: Creation_of_Customer_Health_KPIs.html
+last_built: 2022-05-20T10:10Z
+
